@@ -15,7 +15,7 @@ Alfred workflow to open vscode at current Finder folder
 - Alfred 4
 - Apple Script
 - iTerm 2
-- Vscode with code command at path
+- Vscode + code inside path
 
 ## Future work
 - 
