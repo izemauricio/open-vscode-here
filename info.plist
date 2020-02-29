@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>open-vscode-here</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>0099F5AA-D93A-41BB-9662-D858F298365E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>96BEB82D-9BB6-418D-BBAC-C284395CFF11</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Mauricio Ize</string>
+	<key>description</key>
+	<string>Open vscode here</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Open vscode here</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>ovs</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open Vscode Here</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>0099F5AA-D93A-41BB-9662-D858F298365E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>osascript newvscode.scpt</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>96BEB82D-9BB6-418D-BBAC-C284395CFF11</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>0099F5AA-D93A-41BB-9662-D858F298365E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>215</integer>
+			<key>ypos</key>
+			<integer>255</integer>
+		</dict>
+		<key>96BEB82D-9BB6-418D-BBAC-C284395CFF11</key>
+		<dict>
+			<key>xpos</key>
+			<integer>440</integer>
+			<key>ypos</key>
+			<integer>255</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>www.github.com/izemauricio/open-vscode-here</string>
+</dict>
+</plist>
