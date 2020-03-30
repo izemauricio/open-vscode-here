@@ -9,7 +9,7 @@ Alfred workflow to open vscode at current Finder folder
 
 ## Edit
 - To edit the workflow open in Alfred
-- To edit the script open Script Editor at /Application/Utilities/Script Editor
+- To edit the script, open it using the Script Editor from /Application/Utilities/Script Editor
 
 ## Dependencies
 - Alfred 4
